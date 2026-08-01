@@ -118,7 +118,7 @@ print("you have entered -ve values/zero enter only =ve")
 '''
     
 
-
+'''
 #Task : Student marks and grade analyzer
 #90 - 100 ---> "A"
 #80 - 89 --> "B"
@@ -127,24 +127,48 @@ print("you have entered -ve values/zero enter only =ve")
 #<60 --> Fail
 #also -ve cases sholud not be allowed and marks shouldn't be in -ve values
 marks = int(input("enter student marks:"))
-marks = int(input("Enter student marks: "))
+
 
 if marks >= 0 and marks <= 100:
     if marks >= 90:
         print("Grade: A")
-    else:
+    
         if marks >= 80:
             print("Grade: B")
-        else:
+        
             if marks >= 70:
                 print("Grade: C")
-            else:
+            
                 if marks >= 60:
                     print("Grade: D")
-                else:
-                    print("Fail")
-else:
-    print("Invalid Marks")
+
+                    if marks <60:
+                        print("Fail")
+                        '''
+marks = int(input("Enter the marks (1 -100):"))
+if marks > 0 and marks <=100:
+    if marks >= 90: 
+        print("User has secured Grade A")
+        if marks >= 80  and marks <= 89:
+            print("User has secured Grade B")
+            if marks >= 70 and marks <= 79:
+                print("User has secured Grade C")
+                if marks >= 60 and marks <= 69:
+                    print("User has secured Grade D")
+                if marks >= 60:
+                    print("User has failed,study again")
+    else:
+        print("Enter only +ve values greater than 0 and less than 100")
+                
+                     
+                
+                
+            
+        
+               
+                   
+
+   
 
     
             
