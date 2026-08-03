@@ -62,6 +62,7 @@ for name in names:
 #second understand your output --. sum (number)
 #third we need to map the logic
 
+'''
 result = 0 #target variable
 for i in range(11):
     #print(i)
@@ -74,13 +75,14 @@ print(f'sum of 10 even numbers is {result}')
 
 
 '''
+
 #Sum of first 10 even numbers   
 result = 0 #target variable
 for i in range(21):
     if i %2 == 0:
         result = result + i #result += i
         print(f'sum of 20 even numbers is {result}')
-        '''
+        
 #Understand the usage with Fitness streak example
 #work_out -->, work_out_missed --> 0
 
@@ -89,7 +91,7 @@ work_log = [0,1,1,1,0,1,0]
 longest_streak = 0
 current_streak = 0
 for day in work_log:
-    if day == 3:
+    if day == 1:
         #print(day)
         current_streak = current_streak + 1
         if current_streak > longest_streak:
