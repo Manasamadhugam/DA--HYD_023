@@ -1,7 +1,7 @@
 
 
 
-
+#EVEN - ODD CHECKER
 num = int(input("Enter a number: "))
 
 if num == 0:
@@ -21,7 +21,7 @@ else:
         
         
 
-
+#SEASON IDENTIFIER
 '''
 month = int(input("Enter month number:"))
 if month == 12 or month == 1 or month == 2:
@@ -36,7 +36,7 @@ else:
     print("Invalid month entered")
     '''
     
-
+#GRADE CHECKER
 '''
 marks = int(input("Enter a marks:"))
 if marks < 0 or marks > 100:
@@ -63,8 +63,7 @@ else:
     print("Grade F")
     print("Remark: Failed, needs to reappear")
     '''
-
-    
+ 
 
 
     
