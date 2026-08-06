@@ -22,3 +22,4 @@ print(text[::-2])    # liciat
 for i in range(ord('A'), ord('Z') + 1):
     print(chr(i), end=' ')
 '''
+#done
