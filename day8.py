@@ -127,7 +127,7 @@ d = name.title()
 d = name.title() #converts every werd first letter to uppercase
 print(d)
 
-
+#done
 
 
 
