@@ -26,5 +26,5 @@ from mistakes are the keys to improving technical skills.
 - Problem Solving
 - This repository represents my learning journey and continuous
 growth in Python and Data Analytics.
-💼 linkedin.com/in/manasa-madhugam-3a112629a
+💼 **LinkedIn**: [Manasa Madhugam](https://www.linkedin.com/in/manasa-madhugam-3a112629a)
 📫 manasamadhugam@gmail.com
