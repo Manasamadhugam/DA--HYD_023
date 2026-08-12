@@ -79,7 +79,8 @@ print("Lower case    :", text.islower())
 print("Upper case    :", text.isupper())
 print("Title case    :", text.istitle())
     
-       
+#Done
+
 
     
 
