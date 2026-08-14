@@ -113,11 +113,16 @@ names.clear() #clear() will remove all elements and returns empty list
 print(names)
 '''
 
-data = ['codegnan', 'manasa', 'pandu', 'ashwini']
+0 : manasa
+1 : pandu
+2 : ashwini
+3 : vijayalaxmi
 
-for i in range(len(data)):
-    print("Index", i, ":", data[i])
-
+for obj in data:
+    print(data.index(obj),':',obj)
+for obj in range(len(data)):
+    print(obj, ':', data[obj])
+    
 
 
 
