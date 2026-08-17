@@ -154,6 +154,8 @@ for ch in set(s):
         print(f"{ch} is repeating {len(indices)} times")
         print(f"index = {indices}")
 
+#done
+        
 
 
 
